@@ -24,70 +24,53 @@ export default function ServiceDetails({ serviceId }) {
           </div>
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">{serviceItem.title}</h2>
+              <h2 className="sec-title">Structure Engineering</h2>
               <p className="sec-text mt-30">
-                BaseCreate is pleased to announce that it has been commissioned
-                by Leighton Asia reposition its brand. We will help Leighton
-                Asia evolve its brand strategy, and will be responsible updating
-                Leighton Asia’s brand identity, website, and other collaterals.
+                Capital Engineering Consultancy, with branches worldwide,
+                proudly maintains ISO-9001 certification, ensuring the highest
+                standards of quality and excellence.
               </p>
               <p className="sec-text mt-30">
-                For almost 50 years Leighton Asia, one of the region’s largest
-                and most respected construction companies, has been
-                progressively building for a better future by leveraging
-                international expertise with local intelligence. In that time
-                Leighton has delivered some of Asia’s prestigious buildings and
-                transformational infrastructure projects.
+                At Capital, we are dedicated to creating structural designs that
+                harmonize perfectly with architectural beauty while delivering
+                optimal efficiency and performance. Our skilled engineers
+                conduct thorough analyses and evaluations, developing bespoke
+                solutions that address budgetary constraints and client needs,
+                all while preserving both visual appeal and structural strength.
               </p>
-            </div>
-            <h3>Remarking Services</h3>
-            <p className="sec-text mb-n1">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
-            </p>
-          </div>
-          <div className="col-lg-12">
-            <div className="video-area-1 mt-80 mb-80">
-              <div className="video-wrap">
-                <div
-                  className="jarallax background-image"
-                  style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
-                    overflow: "hidden",
-                  }}
-                ></div>
-                <a
-                  href="https://www.youtube.com/watch?v=vvNwlRLjLkU"
-                  className="play-btn popup-video background-image"
-                ></a>
+              <p className="sec-text mt-30">
+                Choose Capital Engineering Consultancy, our structural services
+                cover a broad range of projects, including expansions, new
+                constructions, and the refurbishment and renovation of existing
+                buildings. We provide end-to-end structural solutions, from
+                initial design and conceptualization to regulatory approvals,
+                construction, and on-site supervision.
+              </p>
+              <div className="col-lg-12">
+                <div className="video-area-1 mt-80 mb-80">
+                  <div className="video-wrap">
+                    <div
+                      className="jarallax background-image"
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/normal/video_2-2.png)",
+                        overflow: "hidden",
+                      }}
+                    ></div>
+                    <a
+                      href="https://www.youtube.com/watch?v=vvNwlRLjLkU"
+                      className="play-btn popup-video background-image"
+                    ></a>
+                  </div>
+                </div>
               </div>
+              <p className="sec-text mt-30">
+                Choose Capital Engineering Consultancy for your structural
+                engineering requirements, and benefit from unparalleled
+                excellence in every phase of your project.
+              </p>
             </div>
-          </div>
-          <div className="col-xl-8">
-            <p className="sec-text mt-n1 mb-40">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
-            </p>
-            <h3>Making for Users Friendly</h3>
-            <p className="sec-text mt-30">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
-            </p>
-            <p className="sec-text mb-40 mt-30">
-              For almost 50 years Leighton Asia, one of the region’s largest and
-              most respected construction companies, has been progressively
-              building for a better future by leveraging international expertise
-              with local intelligence. In that time Leighton has delivered some
-              of Asia’s prestigious buildings and transformational
-              infrastructure projects.
-            </p>
-            <div className="row gy-4">
+            <div className="row gy-4 mt-40">
               <div className="col-md-6">
                 <div className="feature-card">
                   <div className="feature-card-icon">
@@ -129,12 +112,6 @@ export default function ServiceDetails({ serviceId }) {
                 </div>
               </div>
             </div>
-            <p className="sec-text mb-n1 mt-40">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
-            </p>
           </div>
         </div>
       </div>

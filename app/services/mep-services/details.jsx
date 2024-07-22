@@ -24,69 +24,82 @@ export default function ServiceDetails({ serviceId }) {
           </div>
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">{serviceItem.title}</h2>
+              <h2 className="sec-title">MEP Services</h2>
               <p className="sec-text mt-30">
-                BaseCreate is pleased to announce that it has been commissioned
-                by Leighton Asia reposition its brand. We will help Leighton
-                Asia evolve its brand strategy, and will be responsible updating
-                Leighton Asia’s brand identity, website, and other collaterals.
+                Capital Engineering Consultancy is a distinguished leader in
+                multi-disciplinary engineering, offering a comprehensive suite
+                of MEP design services that include HVAC, electrical, plumbing,
+                fire protection, and security and information technology
+                systems. With a history of delivering exceptional results, we
+                are dedicated to providing unparalleled service excellence to
+                our esteemed clients.
               </p>
               <p className="sec-text mt-30">
-                For almost 50 years Leighton Asia, one of the region’s largest
-                and most respected construction companies, has been
-                progressively building for a better future by leveraging
-                international expertise with local intelligence. In that time
-                Leighton has delivered some of Asia’s prestigious buildings and
-                transformational infrastructure projects.
+                Our MEP design services encompass a wide range of solutions,
+                from meticulous analysis and conceptualization to precise
+                construction budgeting, detailed services documentation, and
+                comprehensive construction administration. By collaborating
+                closely with our clients, we develop bespoke solutions tailored
+                to their specific requirements, consistently striving to exceed
+                expectations at every stage of the project lifecycle.
+              </p>
+              <p className="sec-text mt-30">
+                Understanding the importance of innovation and efficiency in MEP
+                design, we focus on creating sustainable and environmentally
+                conscious solutions. Our team of seasoned professionals,
+                equipped with state-of-the-art tools and technologies, delivers
+                cutting-edge solutions that achieve remarkable results.
               </p>
             </div>
-            <h3>Remarking Services</h3>
-            <p className="sec-text mb-n1">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
-            </p>
-          </div>
-          <div className="col-lg-12">
-            <div className="video-area-1 mt-80 mb-80">
-              <div className="video-wrap">
-                <div
-                  className="jarallax background-image"
-                  style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
-                    overflow: "hidden",
-                  }}
-                ></div>
-                <a
-                  href="https://www.youtube.com/watch?v=vvNwlRLjLkU"
-                  className="play-btn popup-video background-image"
-                ></a>
+            <div className="col-lg-12">
+              <div className="video-area-1 mt-80 mb-80">
+                <div className="video-wrap">
+                  <div
+                    className="jarallax background-image"
+                    style={{
+                      backgroundImage: "url(/assets/img/normal/video_2-2.png)",
+                      overflow: "hidden",
+                    }}
+                  ></div>
+                  <a
+                    href="https://www.youtube.com/watch?v=vvNwlRLjLkU"
+                    className="play-btn popup-video background-image"
+                  ></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-xl-8">
-            <p className="sec-text mt-n1 mb-40">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
-            </p>
-            <h3>Making for Users Friendly</h3>
             <p className="sec-text mt-30">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
+              What sets us apart is our unwavering commitment to quality,
+              meticulous attention to detail, and dedication to delivering
+              exceptional customer service. Whether you need a comprehensive MEP
+              design partner or specialized support, we have the expertise and
+              experience to meet your requirements with excellence.
             </p>
-            <p className="sec-text mb-40 mt-30">
-              For almost 50 years Leighton Asia, one of the region’s largest and
-              most respected construction companies, has been progressively
-              building for a better future by leveraging international expertise
-              with local intelligence. In that time Leighton has delivered some
-              of Asia’s prestigious buildings and transformational
-              infrastructure projects.
+            <h3 className="mt-40">Areas of Expertise in MEP:</h3>
+            <p className="sec-text mb-30">1. Mechanical Engineering</p>
+            <p className="sec-text mb-30">
+              2. Electrical and Low Current Engineering
             </p>
+            <p className="sec-text mb-30">3. HVAC Engineering</p>
+            <p className="sec-text mb-30">
+              4. BIM (Building Information Modeling)
+            </p>
+            <p className="sec-text mb-30">5. Infrastructure Design</p>
+            <p className="sec-text mb-30">6. Energy Modeling</p>
+            <p className="sec-text mb-30">7. Sustainable Design Analysis</p>
+            <p className="sec-text mb-30">
+              8. DM Green Building and Estidama Compliant Design
+            </p>
+            <p className="sec-text mb-30">9. Value Engineering</p>
+            <p className="sec-text mb-30">10. Building Retrofit Design</p>
+            <p className="sec-text mb-30">11. Quantity Surveying</p>
+            <p className="sec-text mb-n1 mt-40">
+              Choose Capital Engineering Consultancy as your trusted partner for
+              all your MEP design needs, and elevate your projects to new
+              heights of engineering excellence.
+            </p>
+          </div>
+          <div className="col-xl-8 mt-40">
             <div className="row gy-4">
               <div className="col-md-6">
                 <div className="feature-card">
@@ -129,12 +142,6 @@ export default function ServiceDetails({ serviceId }) {
                 </div>
               </div>
             </div>
-            <p className="sec-text mb-n1 mt-40">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
-            </p>
           </div>
         </div>
       </div>

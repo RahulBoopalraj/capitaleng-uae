@@ -24,70 +24,73 @@ export default function ServiceDetails({ serviceId }) {
           </div>
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">{serviceItem.title}</h2>
+              <h2 className="sec-title">Landscape Architecture</h2>
               <p className="sec-text mt-30">
-                BaseCreate is pleased to announce that it has been commissioned
-                by Leighton Asia reposition its brand. We will help Leighton
-                Asia evolve its brand strategy, and will be responsible updating
-                Leighton Asia’s brand identity, website, and other collaterals.
+                At Capital Engineering Consultancy, we understand the profound
+                impact that well-designed and sustainable landscapes can have on
+                enhancing any project's appeal. Our team of dedicated landscape
+                architects blends expertise with a commitment to creating
+                thoughtful and eco-friendly landscape designs that harmoniously
+                integrate hardscape and softscape elements.
               </p>
               <p className="sec-text mt-30">
-                For almost 50 years Leighton Asia, one of the region’s largest
-                and most respected construction companies, has been
-                progressively building for a better future by leveraging
-                international expertise with local intelligence. In that time
-                Leighton has delivered some of Asia’s prestigious buildings and
-                transformational infrastructure projects.
+                We strive to craft landscapes that are not only visually
+                striking but also promote environmental sustainability. Our
+                designs emphasize green spaces that minimize carbon footprints
+                and improve the quality of life for communities. By
+                collaborating closely with our clients, we ensure each design
+                embodies their vision while respecting the local environment and
+                cultural context.
+              </p>
+              <p className="sec-text mt-30">
+                From initial site planning and detailed design to irrigation
+                engineering and the implementation of landscaping and gardening
+                works, our services encompass every facet of landscape design.
+                We provide comprehensive drawing submittals and accurate plant
+                specifications, ensuring that every element enhances both the
+                aesthetic and functional aspects of the space.
+              </p>
+              <p className="sec-text mt-30">
+                By utilizing the latest design tools and techniques, we aim to
+                create innovative and functional landscapes that elevate the
+                overall project experience. Our meticulous attention to detail
+                and commitment to quality ensure that our landscapes not only
+                exceed expectations but also endure over time.
               </p>
             </div>
-            <h3>Remarking Services</h3>
-            <p className="sec-text mb-n1">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
-            </p>
-          </div>
-          <div className="col-lg-12">
-            <div className="video-area-1 mt-80 mb-80">
-              <div className="video-wrap">
-                <div
-                  className="jarallax background-image"
-                  style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
-                    overflow: "hidden",
-                  }}
-                ></div>
-                <a
-                  href="https://www.youtube.com/watch?v=vvNwlRLjLkU"
-                  className="play-btn popup-video background-image"
-                ></a>
+            <div className="col-lg-12">
+              <div className="video-area-1 mt-80 mb-80">
+                <div className="video-wrap">
+                  <div
+                    className="jarallax background-image"
+                    style={{
+                      backgroundImage: "url(/assets/img/normal/video_2-2.png)",
+                      overflow: "hidden",
+                    }}
+                  ></div>
+                  <a
+                    href="https://www.youtube.com/watch?v=vvNwlRLjLkU"
+                    className="play-btn popup-video background-image"
+                  ></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-xl-8">
-            <p className="sec-text mt-n1 mb-40">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
+            <h3>Our Services:</h3>
+            <ol className="sec-text mt-30">
+              <li className="mb-20">Site Planning</li>
+              <li className="mb-20">Design</li>
+              <li className="mb-20">Irrigation Engineering</li>
+              <li className="mb-20">Landscape & Gardening Works</li>
+              <li className="mb-20">Drawing Submittals</li>
+              <li className="mb-20">Plant Specifications</li>
+            </ol>
+            <p className="sec-text mb-n1 mt-40">
+              At Capital Engineering Consultancy, we are devoted to providing
+              high-quality landscape design services that enhance the beauty of
+              projects while contributing to the well-being of communities and
+              the environment.
             </p>
-            <h3>Making for Users Friendly</h3>
-            <p className="sec-text mt-30">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
-            </p>
-            <p className="sec-text mb-40 mt-30">
-              For almost 50 years Leighton Asia, one of the region’s largest and
-              most respected construction companies, has been progressively
-              building for a better future by leveraging international expertise
-              with local intelligence. In that time Leighton has delivered some
-              of Asia’s prestigious buildings and transformational
-              infrastructure projects.
-            </p>
-            <div className="row gy-4">
+            <div className="row gy-4 mt-40">
               <div className="col-md-6">
                 <div className="feature-card">
                   <div className="feature-card-icon">
@@ -129,12 +132,6 @@ export default function ServiceDetails({ serviceId }) {
                 </div>
               </div>
             </div>
-            <p className="sec-text mb-n1 mt-40">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
-            </p>
           </div>
         </div>
       </div>

@@ -24,41 +24,54 @@ export default function ServiceDetails({ serviceId }) {
           </div>
           <div className="col-xl-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">{serviceItem.title}</h2>
+              <h2 className="sec-title">Architecture & Design</h2>
               <p className="sec-text mt-30">
-                Welcome to Capital Engineering Consultancy, where we redefine architecture with purposeful, elegant, and enduring designs that transcend time. As a premier consultancy in the UAE, we have established a legacy of excellence over the past decade, delivering exceptional results across a diverse spectrum of projects – from inception to construction.
+                Welcome to Capital Engineering Consultancy, your trusted partner
+                for crafting visionary architecture in the UAE. We are a leading
+                consultancy dedicated to creating timeless structures that blend
+                functionality, beauty, and sustainability. With over a decade of
+                experience, we have established a strong reputation for
+                delivering exceptional results on a diverse range of projects.
               </p>
               <p className="sec-text mt-30">
-                At Capital Engineering Consultancy, integrity is the cornerstone of our philosophy. This unwavering commitment fuels our drive to consistently surpass client expectations. With a relentless pursuit of innovation, our team merges bold creativity with meticulous precision to craft architectural marvels that inspire awe.
+                At Capital Engineering Consultancy, we are driven by a
+                commitment to excellence, integrity, and innovation. We go
+                beyond simply building structures; we shape environments that
+                inspire, connect, and enhance the lives of those who inhabit
+                them.
               </p>
             </div>
-            <h3>Crafting Distinctive Environments</h3>
-            <p className="sec-text mb-n1">
-              For us, architecture is more than just creating buildings; it's about shaping environments that resonate with creativity and functionality. Our designs seamlessly integrate with their surroundings, leaving an indelible mark on the landscape.
-            </p>
-          </div>
-          <div className="col-lg-12">
-            <div className="video-area-1 mt-80 mb-80">
-              <div className="video-wrap">
-                <div
-                  className="jarallax background-image"
-                  style={{
-                    backgroundImage: "url(/assets/img/normal/video_2-2.png)",
-                    overflow: "hidden",
-                  }}
-                ></div>
-                <a
-                  href="https://www.youtube.com/watch?v=vvNwlRLjLkU"
-                  className="play-btn popup-video background-image"
-                ></a>
+            <div className="col-lg-12">
+              <div className="video-area-1 mt-80 mb-80">
+                <div className="video-wrap">
+                  <div
+                    className="jarallax background-image"
+                    style={{
+                      backgroundImage: "url(/assets/img/normal/video_2-2.png)",
+                      overflow: "hidden",
+                    }}
+                  ></div>
+                  <a
+                    href="https://www.youtube.com/watch?v=vvNwlRLjLkU"
+                    className="play-btn popup-video background-image"
+                  ></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-xl-8">
-            <p className="sec-text mt-n1 mb-40">
-              Our comprehensive scope of services encompasses every stage of the architectural journey, from conceptualization to project management. With a keen eye for detail and a passion for excellence, we offer:
+            <h3>Our Expertise:</h3>
+            <p className="sec-text mb-n1">
+              Our team of highly skilled architects and designers brings a
+              wealth of experience and expertise to every project. We work
+              closely with our clients to understand their unique vision and
+              translate it into reality, exceeding expectations with each
+              endeavor.
             </p>
-            <h3>Unparalleled Expertise</h3>
+            <p className="sec-text mt-n1 mb-40">
+              Our comprehensive range of services covers every phase of the
+              architectural process, from initial concept development to project
+              management. With a meticulous attention to detail and a commitment
+              to excellence, we provide:
+            </p>
             <ol className="sec-text mt-30">
               <li>Conceptual Design Development</li>
               <li>Detail Design Development</li>
@@ -71,7 +84,10 @@ export default function ServiceDetails({ serviceId }) {
               <li>Project Management</li>
             </ol>
             <p className="sec-text mb-40 mt-30">
-              Experience the transformative power of architectural excellence with Capital Engineering Consultancy. Contact us today to explore how we can bring your vision to life and leave a legacy that endures for generations to come.
+              Discover the transformative potential of architectural excellence
+              with Capital Engineering Consultancy. Reach out to us today to
+              learn how we can turn your vision into reality and create a
+              lasting legacy for future generations.
             </p>
             <div className="row gy-4">
               <div className="col-md-6">
@@ -90,8 +106,27 @@ export default function ServiceDetails({ serviceId }) {
                     </Link>
                   </h4>
                   <p className="feature-card-text mb-n2">
-                    Leverage cutting-edge design ensuring robust project outcomes
+                    Leverage cutting-edge design ensuring robust project
+                    outcomes
                   </p>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="video-area-1 mt-80 mb-80">
+                  <div className="video-wrap">
+                    <div
+                      className="jarallax background-image"
+                      style={{
+                        backgroundImage:
+                          "url(/assets/img/normal/video_2-2.png)",
+                        overflow: "hidden",
+                      }}
+                    ></div>
+                    <a
+                      href="https://www.youtube.com/watch?v=vvNwlRLjLkU"
+                      className="play-btn popup-video background-image"
+                    ></a>
+                  </div>
                 </div>
               </div>
               <div className="col-md-6">
