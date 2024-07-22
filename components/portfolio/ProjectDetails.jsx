@@ -50,19 +50,19 @@ export default function ProjectDetails({ portfolioId }) {
             <div className="project-details-info mb-lg-0 mb-40">
               <ul className="list-wrap">
                 <li>
-                  <span>Category:</span>Development
+                  <span>Manage:</span>
+                  <div className="manage-links" style={{display: "flex", flexDirection: "column", gap: "0.6rem"}}>
+                    <a href="#" style={{color: "black"}} className="hover-underline">Architecture & Design</a>
+                    <a href="#" style={{color: "black"}} className="hover-underline">Fitout & Interior design</a>
+                    <a href="#" style={{color: "black"}} className="hover-underline">Landscape Architecture</a>
+                    <a href="#" style={{color: "black"}} className="hover-underline">Roads Design</a>
+                  </div>
                 </li>
                 <li>
-                  <span>Software:</span>WordPress, Figma
+                  <span>Engineering:</span>WordPress, Figma
                 </li>
                 <li>
-                  <span>Service:</span>Development
-                </li>
-                <li>
-                  <span>Client:</span>Eunice Mills
-                </li>
-                <li>
-                  <span>Date:</span>October 6, 2023
+                  <span>Design:</span>Development
                 </li>
               </ul>
             </div>
