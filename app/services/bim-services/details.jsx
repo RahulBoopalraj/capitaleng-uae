@@ -3,6 +3,7 @@
 import { allFeatures } from "@/data/features";
 import Image from "next/image";
 import Link from "next/link";
+import banner from "../../../public/assets/img/service/service-details1-1.png";
 
 export default function ServiceDetails({ serviceId }) {
   const serviceItem =
@@ -17,7 +18,7 @@ export default function ServiceDetails({ serviceId }) {
                 width={1296}
                 height={700}
                 className="w-100"
-                src="/assets/img/service/service-details1-1.png"
+                src={banner}
                 alt="img"
               />
             </div>
