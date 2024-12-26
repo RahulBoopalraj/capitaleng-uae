@@ -3,7 +3,7 @@ import Footer8 from "@/components/footers/Footer8";
 import Header3 from "@/components/headers/Header3";
 import Breadcumb2 from "./breadcumb";
 
-import SectorDetails from "./details";
+import SectorDetails from "./detail";
 import { allPortfolio } from "@/data/portfolio";
 export const metadata = {
   title:

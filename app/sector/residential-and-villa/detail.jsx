@@ -2,6 +2,7 @@
 import { allPortfolio } from "@/data/portfolio";
 import Image from "next/image";
 import Slider from "react-slick";
+import resident from "@/public/assets/images/resident.png";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
 export default function SectorDetails() {
@@ -27,28 +28,26 @@ export default function SectorDetails() {
   return (
     <div className="project-details-page-area space">
       <div className="container">
-        <Slider className="row global-carousel default" {...slideroptions}>
-          {itemsImages.map((elm, i) => (
-            <div key={i} className="col-xl-12">
+       
+            <div  className="col-xl-12">
               <div className="project-inner-thumb mb-80 wow img-custom-anim-top animated">
                 <Image
                   width={1296}
                   height={700}
                   className="w-100"
-                  src={elm}
+                  src={resident}
                   alt="img"
                 />
               </div>
             </div>
-          ))}
-        </Slider>
+         
 
         <div className="row justify-content-between flex-row-reverse">
           <div className="col-xl-3 col-lg-4">
-            <div className="project-details-info mb-lg-0 mb-40">
+            <div className="project-details-info mb-lg-0 mb-40 hide">
               <ul className="list-wrap">
-                <li>
-                  <span>Manage:</span>
+              <li>
+                  <span>Navigate to:</span>
                   <div
                     className="manage-links"
                     style={{
@@ -58,76 +57,138 @@ export default function SectorDetails() {
                     }}
                   >
                     <a
-                      href="#"
+                      href="/sector/commercial"
                       style={{ color: "black" }}
                       className="hover-underline"
                     >
-                      Architecture & Design
+                      Commercial Projects
                     </a>
                     <a
-                      href="#"
+                      href="/sector/oil-and-gas"
                       style={{ color: "black" }}
                       className="hover-underline"
                     >
-                      Fitout & Interior design
+                      Oil and Gas
                     </a>
                     <a
-                      href="#"
+                      href="/sector/healthcare"
                       style={{ color: "black" }}
                       className="hover-underline"
                     >
-                      Landscape Architecture
+                      Health Care
                     </a>
                     <a
-                      href="#"
+                      href="/sector/hospitality"
                       style={{ color: "black" }}
                       className="hover-underline"
                     >
-                      Roads Design
+                      Hospitality
+                    </a>
+                    <a
+                      href="/sector/education"
+                      style={{ color: "black" }}
+                      className="hover-underline"
+                    >
+                     Education
+                    </a>
+                    <a
+                      href="/sector/tank-farms"
+                      style={{ color: "black" }}
+                      className="hover-underline"
+                    >
+                     Tank Farm
+                    </a>
+                    <a
+                      href="/sector/power-and-energy"
+                      style={{ color: "black" }}
+                      className="hover-underline"
+                    >
+                     Power and Energy
+                    </a>
+                    <a
+                      href="/sector/roads-and-infrastructure"
+                      style={{ color: "black" }}
+                      className="hover-underline"
+                    >
+                     Roads and Infrastructure
+                    </a>
+                    <a
+                      href="/sector/religious"
+                      style={{ color: "black" }}
+                      className="hover-underline"
+                    >
+                     Religous Projects
+                    </a>
+                    <a
+                      href="/sector/government"
+                      style={{ color: "black" }}
+                      className="hover-underline"
+                    >
+                     Government Projects
+                    </a>
+                    <a
+                      href="/sector/industrial"
+                      style={{ color: "black" }}
+                      className="hover-underline"
+                    >
+                     Industrial Sectors
+                    </a>
+                    <a
+                      href="/sector/railways"
+                      style={{ color: "black" }}
+                      className="hover-underline"
+                    >
+                     Railways
+                    </a>
+                    <a
+                      href="/sector/shelters"
+                      style={{ color: "black" }}
+                      className="hover-underline"
+                    >
+                     Shelter
+                    </a>
+                    <a
+                      href="/sector/residential-and-villa"
+                      style={{ color: "black" }}
+                      className="hover-underline"
+                    >
+                     Residential and Villa
                     </a>
                   </div>
-                </li>
-                <li>
-                  <span>Engineering:</span>WordPress, Figma
-                </li>
-                <li>
-                  <span>Design:</span>Development
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-lg-8">
             <div className="title-area mb-35">
-              <h2 className="sec-title">portfolioItem.title</h2>
+              <h2 className="sec-title">Residential and Villa</h2>
               <p className="sec-text mt-30">
-                BaseCreate is pleased to announce that it has been commissioned
-                by Leighton Asia reposition its brand. We will help Leighton
-                Asia evolve its brand strategy, and will be responsible updating
-                Leighton Asia’s brand identity, website, and other collaterals.
+              At Capital Engineering Consultancy, we understand that your residence is more than a building, it is a reflection of your vision and proof of your commitment. Our expertise in residential and villa design ensures personalized spaces that combine elegance, functionality, and sustainability, tailored to your unique lifestyle.
               </p>
-              <p className="sec-text mt-30">
-                For almost 50 years Leighton Asia, one of the region’s largest
-                and most respected construction companies, has been
-                progressively building for a better future by leveraging
-                international expertise with local intelligence. In that time
-                Leighton has delivered some of Asia’s prestigious buildings and
-                transformational infrastructure projects.
-              </p>
+             
             </div>
-            <h3>Challenge & Solution</h3>
+            <h3>How We Elevate Residential Living</h3>
             <p className="sec-text mb-n1">
-              Future, as it seeks to lead the industry in technological
-              innovation and sustainable building practices to deliver
-              long-lasting value for its clients.
+            We design residences that elevate living standards by focusing on:<br/>
+<b>• Individualized Design:</b> We go beyond aesthetics to reflect your vision and maximize comfort and usability, whether a luxurious villa or a cozy private residence.<br/>
+<b>• Optimized Layouts:</b> Every space is meticulously planned for seamless functionality, prioritizing both practicality and visual appeal.<br/>
+<b>• Seamless Project Management:</b> We manage every detail, from concept development to completion, ensuring projects are delivered on time and within budget, minimizing disruptions.<br/>
+<b>• Sustainability at the Core:</b> Designs that integrate eco-friendly practices without compromising style.
             </p>
-            <h3 className="mt-35">Final Result</h3>
+            <h3 className="mt-35">Why Choose Capital Engineering Consultancy?</h3>
             <p className="sec-text mb-n1">
-              For almost 50 years Leighton Asia, one of the region’s largest and
-              most respected construction companies, has been progressively
-              building for a better future by leveraging international expertise
-              with local intelligence. In that time Leighton has delivered some
-              of Asia’s prestigious buildings and transformational
-              infrastructure projects.
+            <b>• Seamless Collaboration:</b> From design to construction, we work closely with you, keeping you informed and engaged.<br/>
+<b>• Commitment to Quality:</b> Every project is a testament to our meticulous attention to detail and commitment to excellence.<br/>
+<b>• Client-Centric Approach:</b> We listen, adapt, and ensure your project reflects your vision and goals.<br/>
+<b>• Risk-Free Investments:</b> Robust quality controls safeguard your project, guaranteeing long-term value.
+            </p>
+            <h3 className="mt-35">Delivering Excellence in Residential Projects</h3>
+            <p className="sec-text mb-n1">
+            Our portfolio includes distinguished projects like Dima Kamal Villa, Eskan Private Villa, Abdullah Kalantar Villa, and Zanuba Villa, where we have transformed visions into stunning realities. Each project reflects our dedication to precision, creativity, and delivering on our client's unique requirements.
+            </p>
+            <h3 className="mt-35">Build Your Dream Residential Project with Us</h3>
+            <p className="sec-text mb-n1">
+            At Capital Engineering Consultancy, we take pride in creating residential spaces that resonate with elegance, functionality, and sustainability. Let's transform your vision into reality. 
             </p>
           </div>
           <div className="col-lg-12">
